@@ -8,6 +8,8 @@ import Cart from "../pages/Cart";
 import Orders from "../pages/Orders";
 import Checkout from "../pages/Checkout";
 import Admin from "../pages/Admin";
+import Products from "../pages/Products";
+import ProductDetails from "../pages/ProductDetails";
 
 export const router = createBrowserRouter([
     {path:'/', 
@@ -17,6 +19,8 @@ export const router = createBrowserRouter([
     children:[
         {index:true,element:<Home/>},
         {path:'login',element:<Login/>},
+        {path:'products', element:<Products/>},
+        {path:'products/:id',element:<ProductDetails/>},
         {path:'cart',
             element:(<ProtectedRoutes>
                       <Cart/>
