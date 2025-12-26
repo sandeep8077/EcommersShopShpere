@@ -3,6 +3,7 @@ import { productSelector } from "../features/products/productSeletor";
 import { useDeferredValue, useEffect, useState } from "react";
 import { fetchAsyncProducts } from "../features/products/productSlice";
 import { Link } from "react-router-dom";
+import WishListButton from "../components/WishListButton";
 
 function Products() {
   const [search, setSearch] = useState("");
@@ -18,6 +19,8 @@ function Products() {
   const filteredProducts = items.filter((product) =>
     product.title.toLowerCase().includes(deferredValue.toLowerCase())
   );
+
+  
 
   return (
     <div className="min-h-screen bg-gray-100 p-6">
@@ -86,8 +89,10 @@ function Products() {
                 <p className="text-green-600 font-bold">
                   ${item.price}
                 </p>
+                
 
               </Link>
+              <WishListButton product={item}/>
             </li>
           ))}
         </ul>

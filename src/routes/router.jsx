@@ -10,6 +10,7 @@ import Checkout from "../pages/Checkout";
 import Admin from "../pages/Admin";
 import Products from "../pages/Products";
 import ProductDetails from "../pages/ProductDetails";
+import WishList from "../pages/WishList";
 
 export const router = createBrowserRouter([
     {path:'/', 
@@ -39,7 +40,10 @@ export const router = createBrowserRouter([
             element:(<ProtectedRoutes role="admin">
                        <Admin/>
                      </ProtectedRoutes>)
-        }
+        },
+       {path:"wishlist",element:(<ProtectedRoutes>
+              <WishList/>
+       </ProtectedRoutes>)}
     ]
     }
 ])

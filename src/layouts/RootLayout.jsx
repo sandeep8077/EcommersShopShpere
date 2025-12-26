@@ -62,6 +62,10 @@ function RootLayout() {
               Checkout
             </Link>
 
+             <Link to="/wishlist" className="nav-link">
+              wishList
+            </Link>
+
             {/* Auth Action */}
             {isAuthenticated ? (
               <button
