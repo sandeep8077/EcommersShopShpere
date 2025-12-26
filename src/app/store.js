@@ -3,13 +3,15 @@ import authReducers from  '../features/auth/authSlice';
 import productReducers from '../features/products/productSlice';
 import cartReducers from '../features/cart/cartSlice'
 import wishListReducers from '../features/wishList/wishListSlice';
+import checkoutReducers from '../features/checkout/checkoutSlice';
 
 export const store = configureStore({
     reducer:{
            auth:authReducers,
            products:productReducers,
            cart:cartReducers,
-           wishlist:wishListReducers
+           wishlist:wishListReducers,
+           checkout:checkoutReducers,
     }
 
 });
