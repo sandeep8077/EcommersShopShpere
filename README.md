@@ -1,16 +1,167 @@
-# React + Vite
+# 🛒 ShopSphere – Advanced React E-Commerce App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, production-ready e-commerce application built with React, Redux Toolkit, and modern React features.
+This project demonstrates advanced frontend architecture, performance optimization, and real-world patterns.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+ 
+## ✅ Core Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ - Product listing with API integration
 
-## Expanding the ESLint configuration
+ - Product details page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ - Search with deferred updates
+
+ - Category & price filtering
+
+ - Shopping cart with quantity control
+
+ - Wishlist with optimistic UI
+
+ - Multi-step checkout flow
+
+ - Global notifications
+
+ - Error handling & rollback
+
+ - Protected routes
+
+ - Clean routing with layouts
+
+
+ ## 🧠 Advanced React Concepts Used
+
+  ✔ React Router (createBrowserRouter)
+  ✔ Redux Toolkit
+  ✔ Async Thunks
+  ✔ Optimistic UI
+  ✔ Middleware
+  ✔ useDeferredValue
+  ✔ Custom hooks
+  ✔ Global notifications
+  ✔ Error boundaries
+  ✔ Controlled forms
+  ✔ Clean architecture
+
+## 🧩 Tech Stack
+
+- React 18	
+- Redux Toolkit	
+- React Router v6	Routing
+- Tailwind CSS	
+- Async Thunks	
+- Jest + RTL	
+- Vite
+
+## 🗂️ Project Structure
+  src
+    │   App.css
+    │   App.jsx
+    │   index.css
+    │   main.jsx
+    │
+    ├───app
+    │       store.js
+    │
+    ├───assets
+    │       react.svg
+    │
+    ├───components
+    │   │   WishListButton.jsx
+    │   │
+    │   ├───checkout
+    │   │       Address.jsx
+    │   │       OrderSuccess.jsx
+    │   │       Payment.jsx
+    │   │       Review.jsx
+    │   │
+    │   └───noticatoin
+    │           Notification.jsx
+    │
+    ├───features
+    │   ├───auth
+    │   │       authSlice.js
+    │   │
+    │   ├───cart
+    │   │       cartSelector.js
+    │   │       cartSlice.js
+    │   │
+    │   ├───checkout
+    │   │       checkoutSlice.js
+    │   │
+    │   ├───notification
+    │   │       notificationSlice.js
+    │   │
+    │   ├───products
+    │   │       productAPI.js
+    │   │       productSeletor.js
+    │   │       productSlice.js
+    │   │
+    │   └───wishList
+    │           wishListAPI.js
+    │           wishListSlice.js
+    │
+    ├───hooks
+    ├───layouts
+    │       RootLayout.jsx
+    │
+    ├───middleware
+    │       notificationMiddleware.js
+    │
+    ├───pages
+    │   │   Admin.jsx
+    │   │   Cart.jsx
+    │   │   Checkout.jsx
+    │   │   Home.jsx
+    │   │   Login.jsx
+    │   │   Orders.jsx
+    │   │   ProductDetails.jsx
+    │   │   Products.jsx
+    │   │   WishList.jsx
+    │   │
+    │   └───Error
+    │           ErrorPage.jsx
+    │
+    ├───routes
+    │       ProtectedRoutes.jsx
+    │       router.jsx
+    │
+    └───services
+
+## 🛠️ Installation & Run
+
+ git clone https://github.com/sandeep8077/EcommersShopShpere
+ cd shopsphere
+ npm install
+ npm run dev
+
+
+## 🧪 Running Tests
+ 
+  npm run dev
+
+
+## 🧠 Architectural Decisions
+
+- Feature-based folder structure
+
+- Redux Toolkit for predictable state
+
+- Async logic separated from UI
+
+- Middleware for cross-cutting concerns
+
+- Declarative routing
+
+## 👨‍💻 Author
+
+### Sandeep kumar * 
+
+ 📧 Email: sk557618269@gmail.com
+
+ 🌐 GitHub: https://github.com/sandeep8077/EcommersShopShpere
+
+
+
