@@ -2,6 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Outlet, Link } from "react-router-dom";
 import { logout } from "../features/auth/authSlice";
 import { totalItems } from "../features/cart/cartSelector";
+import Notification from "../components/noticatoin/Notification";
 
 function RootLayout() {
   const { isAuthenticated } = useSelector((state) => state.auth);
@@ -90,6 +91,7 @@ function RootLayout() {
 
       {/* Main Content */}
       <main className="flex-1 bg-gray-50 p-4">
+        <Notification/>
         <Outlet />
       </main>
     </div>

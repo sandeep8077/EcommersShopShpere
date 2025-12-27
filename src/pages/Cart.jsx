@@ -10,6 +10,7 @@ import {
   increateQuantity,
   removeToCart,
 } from "../features/cart/cartSlice";
+import { Link } from "react-router-dom";
 
 function Cart() {
   const items = useSelector(selectCartItems);
@@ -110,12 +111,14 @@ function Cart() {
                 Clear Cart
               </button>
 
-              <button
-                className="px-6 py-2 bg-blue-600 text-white font-semibold
+              <Link to='/checkout' 
+              className="px-6 py-2 bg-blue-600 text-white font-semibold
                            rounded-lg hover:bg-blue-700 transition"
-              >
-                Checkout
-              </button>
+              >Checkout</Link>
+                
+              
+                
+              
             </div>
           </div>
         )}
