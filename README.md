@@ -133,7 +133,7 @@ This project demonstrates advanced frontend architecture, performance optimizati
     │       ProtectedRoutes.jsx
     │       router.jsx
     │
-    └───services ```
+    └───services 
   
 
 
