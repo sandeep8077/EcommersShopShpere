@@ -3,7 +3,7 @@ import RootLayout from "../layouts/RootLayout";
 import ErrorPage from "../pages/Error/ErrorPage";
 import Home from "../pages/Home";
 import Login from "../pages/Login";
-import ProtectedRoutes from "./protectedRoutes";
+import ProtectedRoutes from "./ProtectedRoutes";
 import Cart from "../pages/Cart";
 import Orders from "../pages/Orders";
 import Checkout from "../pages/Checkout";
