@@ -5,6 +5,8 @@ This project demonstrates advanced frontend architecture, performance optimizati
 
 
 
+
+
  
 ## ✅ Core Features
 
@@ -30,6 +32,8 @@ This project demonstrates advanced frontend architecture, performance optimizati
 
  - Clean routing with layouts
 
+ ---
+
 
  ## 🧠 Advanced React Concepts Used
 
@@ -45,8 +49,10 @@ This project demonstrates advanced frontend architecture, performance optimizati
   ✔ Controlled forms
   ✔ Clean architecture
 
-## 🧩 Tech Stack
+  ---
 
+## 🧩 Tech Stack
+- Sandeep
 - React 18	
 - Redux Toolkit	
 - React Router v6	Routing
@@ -57,84 +63,86 @@ This project demonstrates advanced frontend architecture, performance optimizati
 
 
 
+---
+
 
 ## 🗂️ Project Structure
 
-``` text
-  src
-    │   App.css
-    │   App.jsx
-    │   index.css
-    │   main.jsx
-    │
-    ├───app
-    │       store.js
-    │
-    ├───assets
-    │       react.svg
-    │
-    ├───components
-    │   │   WishListButton.jsx
-    │   │
-    │   ├───checkout
-    │   │       Address.jsx
-    │   │       OrderSuccess.jsx
-    │   │       Payment.jsx
-    │   │       Review.jsx
-    │   │
-    │   └───noticatoin
-    │           Notification.jsx
-    │
-    ├───features
-    │   ├───auth
-    │   │       authSlice.js
-    │   │
-    │   ├───cart
-    │   │       cartSelector.js
-    │   │       cartSlice.js
-    │   │
-    │   ├───checkout
-    │   │       checkoutSlice.js
-    │   │
-    │   ├───notification
-    │   │       notificationSlice.js
-    │   │
-    │   ├───products
-    │   │       productAPI.js
-    │   │       productSeletor.js
-    │   │       productSlice.js
-    │   │
-    │   └───wishList
-    │           wishListAPI.js
-    │           wishListSlice.js
-    │
-    ├───hooks
-    ├───layouts
-    │       RootLayout.jsx
-    │
-    ├───middleware
-    │       notificationMiddleware.js
-    │
-    ├───pages
-    │   │   Admin.jsx
-    │   │   Cart.jsx
-    │   │   Checkout.jsx
-    │   │   Home.jsx
-    │   │   Login.jsx
-    │   │   Orders.jsx
-    │   │   ProductDetails.jsx
-    │   │   Products.jsx
-    │   │   WishList.jsx
-    │   │
-    │   └───Error
-    │           ErrorPage.jsx
-    │
-    ├───routes
-    │       ProtectedRoutes.jsx
-    │       router.jsx
-    │
-    └───services ```
-  
+```text
+src
+│   App.css
+│   App.jsx
+│   index.css
+│   main.jsx
+│
+├── app
+│   └── store.js
+│
+├── assets
+│   └── react.svg
+│
+├── components
+│   │   WishListButton.jsx
+│   │
+│   ├── checkout
+│   │   ├── Address.jsx
+│   │   ├── OrderSuccess.jsx
+│   │   ├── Payment.jsx
+│   │   └── Review.jsx
+│   │
+│   └── noticatoin
+│       └── Notification.jsx
+│
+├── features
+│   ├── auth
+│   │   └── authSlice.js
+│   │
+│   ├── cart
+│   │   ├── cartSelector.js
+│   │   └── cartSlice.js
+│   │
+│   ├── checkout
+│   │   └── checkoutSlice.js
+│   │
+│   ├── notification
+│   │   └── notificationSlice.js
+│   │
+│   ├── products
+│   │   ├── productAPI.js
+│   │   ├── productSelector.js
+│   │   └── productSlice.js
+│   │
+│   └── wishList
+│       ├── wishListAPI.js
+│       └── wishListSlice.js
+│
+├── hooks
+├── layouts
+│   └── RootLayout.jsx
+│
+├── middleware
+│   └── notificationMiddleware.js
+│
+├── pages
+│   ├── Admin.jsx
+│   ├── Cart.jsx
+│   ├── Checkout.jsx
+│   ├── Home.jsx
+│   ├── Login.jsx
+│   ├── Orders.jsx
+│   ├── ProductDetails.jsx
+│   ├── Products.jsx
+│   ├── WishList.jsx
+│   └── Error
+│       └── ErrorPage.jsx
+│
+├── routes
+│   ├── ProtectedRoutes.jsx
+│   └── router.jsx
+│
+└── services
+
+```
 
 
 ## 🛠️ Installation & Run
@@ -164,7 +172,7 @@ This project demonstrates advanced frontend architecture, performance optimizati
 
 ## 👨‍💻 Author
 
-### Sandeep kumar * 
+### Sandeep kumar 
 
  📧 Email: sk557618269@gmail.com
 
