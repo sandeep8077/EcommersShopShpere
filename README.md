@@ -35,19 +35,20 @@ This project demonstrates advanced frontend architecture, performance optimizati
  ---
 
 
- ## 🧠 Advanced React Concepts Used
+## 🧠 Advanced React Concepts Used
 
-  ✔ React Router (createBrowserRouter)
-  ✔ Redux Toolkit
-  ✔ Async Thunks
-  ✔ Optimistic UI
-  ✔ Middleware
-  ✔ useDeferredValue
-  ✔ Custom hooks
-  ✔ Global notifications
-  ✔ Error boundaries
-  ✔ Controlled forms
-  ✔ Clean architecture
+- ✅ React Router (`createBrowserRouter`)
+- ✅ Redux Toolkit
+- ✅ Async Thunks
+- ✅ Optimistic UI
+- ✅ Middleware
+- ✅ `useDeferredValue`
+- ✅ Custom Hooks
+- ✅ Global Notifications
+- ✅ Error Boundaries
+- ✅ Controlled Forms
+- ✅ Clean Architecture
+
 
   ---
 
@@ -147,10 +148,12 @@ src
 
 ## 🛠️ Installation & Run
 
- git clone https://github.com/sandeep8077/EcommersShopShpere
- cd shopsphere
- npm install
- npm run dev
+```bash
+git clone https://github.com/sandeep8077/EcommersShopShpere
+cd shopsphere
+npm install
+npm run dev
+```
 
 
 ## 🧪 Running Tests
