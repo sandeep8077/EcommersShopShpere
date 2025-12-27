@@ -2,11 +2,13 @@
 
 A modern, production-ready e-commerce application built with React, Redux Toolkit, and modern React features.
 This project demonstrates advanced frontend architecture, performance optimization, and real-world patterns.
+---
 
 
 
  
 ## ✅ Core Features
+-Sandeep
 
  - Product listing with API integration
 
@@ -30,6 +32,8 @@ This project demonstrates advanced frontend architecture, performance optimizati
 
  - Clean routing with layouts
 
+   ---
+
 
  ## 🧠 Advanced React Concepts Used
 
@@ -45,6 +49,8 @@ This project demonstrates advanced frontend architecture, performance optimizati
   ✔ Controlled forms
   ✔ Clean architecture
 
+  ---
+
 ## 🧩 Tech Stack
 
 - React 18	
@@ -55,7 +61,7 @@ This project demonstrates advanced frontend architecture, performance optimizati
 - Jest + RTL	
 - Vite
 
-
+---
 
 
 ## 🗂️ Project Structure
@@ -135,7 +141,7 @@ This project demonstrates advanced frontend architecture, performance optimizati
     │
     └───services 
   
-
+---
 
 ## 🛠️ Installation & Run
 
@@ -144,11 +150,11 @@ This project demonstrates advanced frontend architecture, performance optimizati
  npm install
  npm run dev
 
-
+---
 ## 🧪 Running Tests
  
   npm run dev
-
+---
 
 ## 🧠 Architectural Decisions
 
@@ -162,9 +168,10 @@ This project demonstrates advanced frontend architecture, performance optimizati
 
 - Declarative routing
 
+---
 ## 👨‍💻 Author
 
-### Sandeep kumar * 
+### Sandeep kumar 
 
  📧 Email: sk557618269@gmail.com
 
