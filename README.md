@@ -56,12 +56,12 @@ This project demonstrates advanced frontend architecture, performance optimizati
 - Vite
 
 
-``` md
+
 
 ## 🗂️ Project Structure
 
 ``` text
-  src
+  (src
     │   App.css
     │   App.jsx
     │   index.css
@@ -134,6 +134,7 @@ This project demonstrates advanced frontend architecture, performance optimizati
     │       router.jsx
     │
     └───services
+  )
 
 
 ## 🛠️ Installation & Run
