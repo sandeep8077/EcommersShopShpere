@@ -131,6 +131,8 @@ This project demonstrates advanced frontend architecture, performance optimizati
     │
     └───services
 
+--- 
+``` text
 ## 🛠️ Installation & Run
 
  git clone https://github.com/sandeep8077/EcommersShopShpere
