@@ -55,7 +55,11 @@ This project demonstrates advanced frontend architecture, performance optimizati
 - Jest + RTL	
 - Vite
 
+
+``` md
+
 ## 🗂️ Project Structure
+
 ``` text
   src
     │   App.css
@@ -131,8 +135,7 @@ This project demonstrates advanced frontend architecture, performance optimizati
     │
     └───services
 
---- 
-``` text
+
 ## 🛠️ Installation & Run
 
  git clone https://github.com/sandeep8077/EcommersShopShpere
