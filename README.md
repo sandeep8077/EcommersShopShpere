@@ -56,6 +56,7 @@ This project demonstrates advanced frontend architecture, performance optimizati
 - Vite
 
 ## 🗂️ Project Structure
+``` text
   src
     │   App.css
     │   App.jsx
