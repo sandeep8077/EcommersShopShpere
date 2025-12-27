@@ -61,7 +61,7 @@ This project demonstrates advanced frontend architecture, performance optimizati
 ## 🗂️ Project Structure
 
 ``` text
-  (src
+  src
     │   App.css
     │   App.jsx
     │   index.css
@@ -133,8 +133,8 @@ This project demonstrates advanced frontend architecture, performance optimizati
     │       ProtectedRoutes.jsx
     │       router.jsx
     │
-    └───services
-  )
+    └───services ```
+  
 
 
 ## 🛠️ Installation & Run
