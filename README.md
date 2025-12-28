@@ -1,5 +1,7 @@
 # 🛒 ShopSphere – Advanced React E-Commerce App
 
+🔗 Live Demo: https://ecommersshopshpereapp.onrender.com
+
 A modern, production-ready e-commerce application built with React, Redux Toolkit, and modern React features.
 This project demonstrates advanced frontend architecture, performance optimization, and real-world patterns.
 
