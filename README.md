@@ -173,6 +173,44 @@ npm run dev
 
 - Declarative routing
 
+
+## 📸 Screenshots
+
+### Login Page
+![Login](public/screenshots/l_login.png)
+
+### Home Page
+![Home](public/screenshots/2_home.png)
+
+### Product Page
+![Product](public/screenshots/3_product)
+
+### Product Details Page
+![ProductDetails](public/screenshots/4_productDetails.png)
+
+### Add to Cart 
+1[AddedToCart](public/screenshots/5_addCartProduct.png)
+
+### Cart Page
+![CartPage](public/screenshots/6_cartPage.png)
+
+### Checkout Steps
+![AddressStep](public/screenshots/7_checkoutAddressStep.png)
+
+![PaymentStep](public/screenshots/8_checkoutPaymentStep.png)
+
+![ReviewStep](public/screenshots/9_checkoutRevieStep.png)
+
+![SuccessStep](public/screenshots/10_checkoutSuccessStep.png)
+
+### Wishlist
+
+ ![Wishlist](public/screenshots/11_addwishlistItem.png)
+
+ ![Wishlist page](public/screenshots/12_wishlistItems.png)
+
+ 
+
 ## 👨‍💻 Author
 
 ### Sandeep kumar 
