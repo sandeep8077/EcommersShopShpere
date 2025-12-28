@@ -177,19 +177,19 @@ npm run dev
 ## 📸 Screenshots
 
 ### Login Page
-![Login](public/screenshots/l_login.png)
+![Login](public/screenshots/1_login.png)
 
 ### Home Page
-![Home](public/screenshots/2_home.png)
+![Home](public/screenshots/2_homePage.png)
 
 ### Product Page
-![Product](public/screenshots/3_product)
+![Product](public/screenshots/3_product.png)
 
 ### Product Details Page
 ![ProductDetails](public/screenshots/4_productDetails.png)
 
 ### Add to Cart 
-1[AddedToCart](public/screenshots/5_addCartProduct.png)
+![AddedToCart](public/screenshots/5_addCartProduct.png)
 
 ### Cart Page
 ![CartPage](public/screenshots/6_cartPage.png)
